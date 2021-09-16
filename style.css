@@ -1,7 +1,9 @@
-html, body
+html ,
+ body
 {
     height: 100%;
-    font: size 1rem; 
+    font-size: 1rem; 
+    font-family:'Zilla Slab', serif;
 }
 .gradient{
     background: rgb(152,150,108);
@@ -9,8 +11,16 @@ background: linear-gradient(137deg, rgba(152,150,108,1) 0%, rgba(200,211,224,1) 
 }
 .page-header{margin-top: 4rem;
     font-size: 1.25rem;
-    color:#C8D3E0 ;
-    font-family: <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap" rel="stylesheet">;
+    color:#1F4269 ;
+}
+.featured ul{
+    padding-left:2rem;
+    list-style-type: none;
+}
+.featured ul li{
+    padding-left:2rem;
+    background-image:url(./images/ender_pearl_16.png);
+    background-repeat: no-repeat;
+    line-height: 1.5rem;
+    margin-bottom:1rem;
 }
