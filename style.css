@@ -23,4 +23,17 @@ background: linear-gradient(137deg, rgba(152,150,108,1) 0%, rgba(200,211,224,1) 
     background-repeat: no-repeat;
     line-height: 1.5rem;
     margin-bottom:1rem;
+    align-items: center;
+}
+.icon{
+    background-color: transparent;
+    height: 12rem;
+    width: 12rem;
+    border-radius: 100%;
+    display:inline-flex;
+    align-items: center;
+    justify-content:center;
+}
+.gallery img{
+    border-radius: 5%;
 }
