@@ -37,3 +37,7 @@ background: linear-gradient(137deg, rgba(152,150,108,1) 0%, rgba(200,211,224,1) 
 .gallery img{
     border-radius: 5%;
 }
+.services img{
+    width: 100%rem;
+    height: 100%;
+}
